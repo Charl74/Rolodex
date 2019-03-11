@@ -1,0 +1,21 @@
+﻿<div ng-controller="contactsController">
+    <div class="panel-heading">
+        Contacts
+        <input class="input-sm col-lg-offset-6" ng-model="searchText" type="text" placeholder="Search contacts" />
+   </div>
+    <div>
+        <table class="table table-bordered">
+            <tr>
+                <th>Person</th>
+                <th>Number</th>
+            </tr>
+            <tr ng-repeat="entry in entries | filter:searchText">
+                <td><span>{{entry.person}}</span></td>
+                <td><span>{{entry.number}}</span></td>
+            </tr>
+        </table>
+        <p>
+            <a class="btn btn-primary" href="addNewContact">Add New Contact</a>
+        </p>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+﻿@using Microsoft.AspNet.Identity
+<div class="jumbotron" ng-app="PBApp">
+    @Html.Hidden("UserInternalId", User.Identity.GetUserId(), new { id = "UserInternalId" })
+    @Html.Hidden("UserName", User.Identity.GetUserName(), new { id = "UserName" })
+    <div> 
+        <div>
+            <ng-view></ng-view>
+        </div>
+
+    </div>
+</div>

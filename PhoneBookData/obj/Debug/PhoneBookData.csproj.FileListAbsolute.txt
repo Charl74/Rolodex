@@ -1,0 +1,12 @@
+C:\Users\c2024631\Documents\Visual Studio 2015\Projects\PhoneBookAPI\PhoneBookData\bin\Debug\PhoneBookData.dll
+C:\Users\c2024631\Documents\Visual Studio 2015\Projects\PhoneBookAPI\PhoneBookData\bin\Debug\PhoneBookData.pdb
+C:\Users\c2024631\Documents\Visual Studio 2015\Projects\PhoneBookAPI\PhoneBookData\obj\Debug\PhoneBookData.dll
+C:\Users\c2024631\Documents\Visual Studio 2015\Projects\PhoneBookAPI\PhoneBookData\obj\Debug\PhoneBookData.pdb
+C:\Users\c2024631\Documents\Visual Studio 2015\Projects\PhoneBookAPI\PhoneBookData\bin\Debug\PhoneBookData.dll.config
+C:\Users\c2024631\Documents\Visual Studio 2015\Projects\PhoneBookAPI\PhoneBookData\bin\Debug\EntityFramework.dll
+C:\Users\c2024631\Documents\Visual Studio 2015\Projects\PhoneBookAPI\PhoneBookData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\c2024631\Documents\Visual Studio 2015\Projects\PhoneBookAPI\PhoneBookData\bin\Debug\EntityFramework.xml
+C:\Users\c2024631\Documents\Visual Studio 2015\Projects\PhoneBookAPI\PhoneBookData\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\c2024631\Documents\Visual Studio 2015\Projects\PhoneBookAPI\PhoneBookData\obj\Debug\PhoneBookData.Migrations.AddSortOrder.resources
+C:\Users\c2024631\Documents\Visual Studio 2015\Projects\PhoneBookAPI\PhoneBookData\obj\Debug\PhoneBookData.csproj.GenerateResource.Cache
+C:\Users\c2024631\Documents\Visual Studio 2015\Projects\PhoneBookAPI\PhoneBookData\obj\Debug\PhoneBookData.csprojResolveAssemblyReference.cache
