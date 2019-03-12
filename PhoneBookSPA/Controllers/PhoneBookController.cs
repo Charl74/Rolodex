@@ -48,7 +48,7 @@ namespace PhoneBookSPA.Controllers
                 }
             }
 
-            return Request.CreateErrorResponse(HttpStatusCode.ExpectationFailed, "Unsuccesfull");
+            return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Unsuccesfull");
         }
 
         // PUT: api/PhoneBook/5

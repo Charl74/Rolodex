@@ -2,11 +2,11 @@
     <div class="panel-heading">Add New Contacts</div>
     <div>
         Person: <input class="form-control" type="text" id="Person" required/>
-        Number: <input class="form-control" type="number" id="Number" required/>
+        Number: <input class="form-control" type="text" id="Number" required/>
         <div>
             <button type="submit" class="btn btn-primary" ng-click="addNewContact()">Add New Contact</button>
             <a class="btn btn-primary" href="/">Back To Contacts</a>
         </div>
     </div>
+    <h2 ng-style="{'color' : (message=='Created')? 'green' : 'red'}">{{message}}</h2>
 </div>
-<h2>{{message}}</h2>

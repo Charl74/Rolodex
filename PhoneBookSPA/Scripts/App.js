@@ -47,8 +47,11 @@ PBApp.controller("addNewContactController", function ($scope, $http) {
                 UserInternalId: document.getElementById("UserInternalId").value
             },
             headers: { 'Content-Type': 'application/json' }
-        }).success(function(data, status, headers) {
-            $scope.message = status;
-        });
+        }).then(function(response) {
+                $scope.message = response.statusText;
+            },
+            function(response) {
+                $scope.message = response.statusText; // + ' : "' + response.config.data + '"';
+            });
     }
 });
